@@ -1,0 +1,79 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: boder-box;
+}
+body{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: skyblue;
+}
+.main{
+  height: 150px;
+  width: 400px;
+  border-radius: 5px;
+  max-height: 100%;
+}
+.main h2{
+  text-align: center;
+  padding: 10px 10px;
+  font-weight: 600;
+}
+.input-filds{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.main .input-filds input{
+  height: 30px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.input-filds button{
+  width: 60px;
+  height: 32px;
+  background-color: dodgerblue;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main .input-filds input[type="text"]{
+  padding-left: 10px;
+} 
+.main .input-filds input:focus{
+  border: 2px solid skyblue;
+}
+hr{
+  margin: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.todo-list{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.todo-list .todo{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 30px;
+  background-color: #e3c49d;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.todo-list .todo p{
+  margin: 6px;
+  color: #fff;
+  font-weight: 600;
+}
+.todo-list .todo i{
+  margin: 7px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
